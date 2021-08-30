@@ -1,0 +1,19 @@
+{
+  "name": "yotest-vue-sdk",
+  "version": "1.0.0",
+  "description": "YoTest Vue SDK",
+  "main": "YoTest.vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoTest-team/YoTest-Vue-SDK.git"
+  },
+  "author": "yotest-team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YoTest-team/YoTest-Vue-SDK/issues"
+  },
+  "homepage": "https://github.com/YoTest-team/YoTest-Vue-SDK#readme",
+  "dependencies": {
+    "yotest-web-sdk": "^1.0.4"
+  }
+}
