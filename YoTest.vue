@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import initYoTest from "yotest-web-sdk";
+import initYoTest from 'yotest-web-sdk';
 export default {
   data() {
     return {
