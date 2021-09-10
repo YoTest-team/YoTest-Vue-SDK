@@ -272,7 +272,7 @@
 
 
 ### accessId \<String\>
-必填，当前项目所属的accessId，可以在优验后台中进行相关获取及查看。
+必填，当前项目所属的accessId，可以在友验后台中进行相关获取及查看。
 
 ```html
 <template>
