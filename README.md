@@ -264,6 +264,8 @@
 
 - [@ready](https://github.com/YoTest-team/YoTest-Vue-SDK#ready)
 
+- [@show](https://github.com/YoTest-team/YoTest-Vue-SDK#show)
+
 - [@success](https://github.com/YoTest-team/YoTest-Vue-SDK#success)
 
 - [@error](https://github.com/YoTest-team/YoTest-Vue-SDK#error)
@@ -611,6 +613,43 @@
     methods: {
       onReadyHandler() {
         console.log("yotest init completed...");
+      }
+    }
+  };
+</script>
+
+<style>
+  #captcha {
+    width: 300px;
+    height: 40px;
+  }
+</style>
+```
+
+#### @show
+
+监听验证的初始化完成事件。
+
+```html
+<template>
+  <div id="app">
+    <YoTest ref="captcha" 
+            id="captcha"
+            accessId="your accessId"
+            @show="onShowHandler">
+    </YoTest>
+  </div>
+</template>
+
+<script>
+  import YoTest from "yotest-vue-sdk";
+  export default {
+    components: {
+      YoTest,
+    },
+    methods: {
+      onShowHandler() {
+        console.log("yotest showed...");
       }
     }
   };

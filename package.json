@@ -14,6 +14,6 @@
   },
   "homepage": "https://github.com/YoTest-team/YoTest-Vue-SDK#readme",
   "dependencies": {
-    "yotest-web-sdk": "^1.0.5"
+    "yotest-web-sdk": "^1.1.7"
   }
 }

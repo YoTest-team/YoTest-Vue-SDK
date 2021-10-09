@@ -74,6 +74,7 @@ export default {
 
       this.$captcha = captcha;
       captcha.onReady(() => this.$emit("ready"));
+      captcha.onShow(() => this.$emit("show"));
       captcha.onSuccess((data) => this.$emit("success", data));
       captcha.onError((data) => this.$emit("error", data));
       captcha.onClose(() => this.$emit("close"));
