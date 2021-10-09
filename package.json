@@ -1,6 +1,6 @@
 {
   "name": "yotest-vue-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "YoTest Vue SDK",
   "main": "YoTest.vue",
   "repository": {
